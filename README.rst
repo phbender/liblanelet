@@ -5,7 +5,7 @@ Lanelet maps: ``libLanelet``
 :author: Philipp Bender ``<pbender@fzi.de>``, Julius Ziegler ``<ziegler@fzi.de>``
 :date: April 16, 2014
 
-.. image:: lanelet.png
+.. image:: img/lanelet.png
 
 Lanelet maps [#laneletpaper]_ have been introduced in the context of the autonomous
 completion of the Bertha-Benz-Memorial-Route in 2013 [#presse]_.
@@ -36,18 +36,8 @@ Quickstart
 ==========
 
 * `Download libLanelet <lanelets_iv_2014.tar.gz>`_
-* Follow the install instructions given in the ``README`` file (especially about the depedencies) and this video:
-
-  .. raw:: html
-
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/K2GKEDoe7ck" frameborder="0" allowfullscreen></iframe>
-
-* Make a map and parse it with libLanelet
-
-  .. raw:: html
-
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/284xfabEUZ4" frameborder="0" allowfullscreen></iframe>
-    
+* Follow the install instructions given in the ``README`` file (especially about the depedencies) and `this video <http://youtu.be/K2GKEDoe7ck>`_:
+* Make a map and parse it with libLanelet (there is `a video <http://youtu.be/284xfabEUZ4>`_ as well)  
 * Use ``libLanelet`` in your software. A good point to start is ``demo.cpp`` as well as the test cases in ``lanelet_tests.cpp``.
     
 Configuring JOSM
@@ -59,12 +49,12 @@ a JOSM style file as well as the corresponding icons. To activate the style,
 * press ``F12`` to get into the configuration dialog
 * in the third tab (titled *settings for the map projection*), go to *Map Paint Styles* and press the ``+`` to add the style sheet. In the area below, append the icon directory to the list.
 
-.. figure:: josm-1.png
+.. figure:: img/josm-1.png
   :width: 500
 
   The dialog to activate the style sheet.
 
-.. figure:: josm-0.png
+.. figure:: img/josm-0.png
   :width: 500
 
   A screenshot of JOSM. The coloring scheme of the bounds is consistent with the paper: red for left bounds, green
