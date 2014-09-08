@@ -1,0 +1,101 @@
+relation > way::foo{
+    width: 4;
+    opacity: 1;
+}
+
+relation >[role="centerline"] way::foo {  
+    width: 6; 
+    color: red; 
+    opacity: 0.3; 
+}
+
+relation >[role="entry"] way::foo {  
+    width: 4; 
+    color: yellow; 
+    opacity: 1; 
+}
+
+relation >[role="ref_line"] way::foo {  
+    width: 4; 
+    color: orange; 
+    opacity: 1; 
+}
+
+relation >[role="stop_line"] way::foo {  
+    width: 4; 
+    color: white; 
+    opacity: 1; 
+}
+
+
+relation >[role="right"] way::foo {
+    color: green;
+}
+
+relation >[role="left"] way::foo {
+    color: blue;
+}
+
+way[variant]{
+    width: 8;
+}
+
+way[mission]{
+    width: 3;
+    opacity: 0.7;
+    color: #66ff00;
+    dashes: 4,2;
+}
+
+way[shape]{
+    width: 3;
+    opacity: 0.7;
+    color: #ff00ff;
+}
+
+way[position]{
+    width: 5;
+    opacity: 0.9;
+    color: #99cc00;
+}
+
+
+way[shape=dashed]::foo {
+    dashes: 50;
+}
+
+relation[maneuver=traffic_light] >[role="end_point"] node::relation_underlay {
+    icon-image: "icons/traffic-light.png";
+    icon-height: 15;
+}
+
+relation[maneuver=give_way] >[role="end_point"] node::relation_underlay {
+    icon-image: "icons/priority.png";
+    icon-width: 15;
+}
+
+way {
+    font-size: 15;
+    text-color: white;
+    text-halo-color: black;
+    text-halo-radius: 5;
+}
+
+
+way[type=obstacle] {
+    width: 5;
+    opacity: 0.5;
+    color: red;
+}
+
+relation >[role="activate_point"] node::relation_underlay {
+    icon-image: "icons/misc.png";
+    icon-width: 10;
+}
+
+node[label=traffic_light]{
+    icon-image: "icons/traffic-light.png";
+}
+
+
+

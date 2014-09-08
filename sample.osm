@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='581341' visible='true' version='1' changeset='1609' lat='49.01554822307355' lon='8.493907824596581'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581342' visible='true' version='1' changeset='1609' lat='49.01556936878314' lon='8.493875583110505'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581343' visible='true' version='1' changeset='1609' lat='49.01559957692413' lon='8.493848715205441'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581344' visible='true' version='1' changeset='1609' lat='49.01560626948154' lon='8.494010372317378'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581345' visible='true' version='1' changeset='1609' lat='49.01564906431081' lon='8.49407178467181'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581346' visible='true' version='1' changeset='1609' lat='49.01565511895346' lon='8.49394617034749'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581347' visible='true' version='1' changeset='1609' lat='49.01565711980398' lon='8.494016513552824'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581348' visible='true' version='1' changeset='1609' lat='49.01568833482765' lon='8.49405489627434'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581349' visible='true' version='1' changeset='1609' lat='49.01568833482765' lon='8.494117076283201'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581350' visible='true' version='1' changeset='1609' lat='49.01571904636411' lon='8.494080228870542'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581351' visible='true' version='1' changeset='1609' lat='49.015743716273114' lon='8.49414778246042'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581352' visible='true' version='1' changeset='1609' lat='49.01575328215288' lon='8.494097117268014'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581353' visible='true' version='1' changeset='1609' lat='49.01578651098421' lon='8.494104793812317'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581354' visible='true' version='1' changeset='1609' lat='49.015790246428956' lon='8.49429200626818'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581355' visible='true' version='1' changeset='1609' lat='49.0158014675291' lon='8.494168059448485'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581356' visible='true' version='1' changeset='1609' lat='49.01580433990505' lon='8.494254935150334'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581357' visible='true' version='1' changeset='1609' lat='49.0158238061442' lon='8.49421308285'>
+    <tag k='label' v='traffic_light' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581358' visible='true' version='1' changeset='1609' lat='49.01582534418283' lon='8.49419902534404'>
+    <tag k='label' v='traffic_light' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581359' visible='true' version='1' changeset='1609' lat='49.01582926510116' lon='8.494239421939698'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581360' timestamp='2013-12-11T08:40:50Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158356' lon='8.4942363'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581361' timestamp='2013-12-11T08:40:50Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158388' lon='8.4942933'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581362' timestamp='2013-12-11T08:40:50Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158392' lon='8.4942146'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581363' visible='true' version='1' changeset='1609' lat='49.0158408853876' lon='8.494103258503456'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581364' timestamp='2013-12-11T08:40:50Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158413' lon='8.4943254'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581365' timestamp='2013-12-11T08:40:50Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158477' lon='8.4943574'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581366' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158577' lon='8.4941745'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581367' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158634' lon='8.4944007'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581368' visible='true' version='1' changeset='1609' lat='49.015870086431576' lon='8.494160832585736'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581369' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158776' lon='8.4942808'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581370' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158805' lon='8.4943188'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581371' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158822' lon='8.4942477'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581372' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158829' lon='8.4941441'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581373' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158915' lon='8.494213'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581374' visible='true' version='1' changeset='1609' lat='49.01589223893627' lon='8.494103258503456'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581375' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0158941' lon='8.4943676'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581376' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0159039' lon='8.4941924'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581377' timestamp='2013-12-11T08:40:51Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0159079' lon='8.4941191'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581378' timestamp='2013-12-11T08:40:52Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0159161' lon='8.4941783'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581379' visible='true' version='1' changeset='1609' lat='49.01593841031624' lon='8.494558795553555'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581380' timestamp='2013-12-11T08:40:52Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.015947' lon='8.4941051'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581381' timestamp='2013-12-11T08:40:52Z' uid='16' user='bender2' visible='true' version='1' changeset='1609' lat='49.0159475' lon='8.494155'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581382' visible='true' version='1' changeset='1609' lat='49.01598271525496' lon='8.494554957281403'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581383' visible='true' version='1' changeset='1609' lat='49.015983407355755' lon='8.49410768241595'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581384' visible='true' version='1' changeset='1609' lat='49.01598416255324' lon='8.494154125508986'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581385' visible='true' version='1' changeset='1609' lat='49.01599217309402' lon='8.494630089919253'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581386' visible='true' version='1' changeset='1609' lat='49.01601342660979' lon='8.494720770638368'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581387' visible='true' version='1' changeset='1609' lat='49.016035767686304' lon='8.494117278096326'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581388' visible='true' version='1' changeset='1609' lat='49.016038033276295' lon='8.494158347608353'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581389' visible='true' version='1' changeset='1609' lat='49.0160451448744' lon='8.494695438042168'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581390' visible='true' version='1' changeset='1609' lat='49.01606477998045' lon='8.494842827692802'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581391' visible='true' version='1' changeset='1609' lat='49.016092155673014' lon='8.494166276271196'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581392' visible='true' version='1' changeset='1609' lat='49.01609549128466' lon='8.494811353861156'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581393' visible='true' version='1' changeset='1609' lat='49.016096183383894' lon='8.49412520675917'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581394' visible='true' version='1' changeset='1609' lat='49.01610037390281' lon='8.494931656427186'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581395' visible='true' version='1' changeset='1609' lat='49.01613580393815' lon='8.495025001655065'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581396' visible='true' version='1' changeset='1609' lat='49.0161561942033' lon='8.494972033499367'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581397' visible='true' version='1' changeset='1609' lat='49.016169787708776' lon='8.495130170312029'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581398' visible='true' version='1' changeset='1609' lat='49.016193450468684' lon='8.49507873746519'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581399' visible='true' version='1' changeset='1609' lat='49.01620133311265' lon='8.495222064002899'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581400' visible='true' version='1' changeset='1609' lat='49.01623322401852' lon='8.495193885629753'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581401' visible='true' version='1' changeset='1609' lat='49.01624708755989' lon='8.495381812419257'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581402' visible='true' version='1' changeset='1609' lat='49.016258667191806' lon='8.495280865861663'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581403' visible='true' version='1' changeset='1609' lat='49.01628937837638' lon='8.495393327235716'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581404' visible='true' version='1' changeset='1609' lat='49.016290385300145' lon='8.495530737378756'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581405' visible='true' version='1' changeset='1609' lat='49.01631203415613' lon='8.495476233914198'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581406' visible='true' version='1' changeset='1609' lat='49.016330895947455' lon='8.495674515397086'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581407' visible='true' version='1' changeset='1609' lat='49.0163437522305' lon='8.495591382078755'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <node id='581408' visible='true' version='1' changeset='1609' lat='49.016359767801404' lon='8.495651333396431'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </node>
+  <way id='54371' action='delete' visible='true' version='1' changeset='1609'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54372' visible='true' version='1' changeset='1609'>
+    <nd ref='581342' />
+    <nd ref='581367' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54373' visible='true' version='1' changeset='1609'>
+    <nd ref='581354' />
+    <nd ref='581359' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54374' visible='true' version='1' changeset='1609'>
+    <nd ref='581343' />
+    <nd ref='581346' />
+    <nd ref='581375' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54375' timestamp='2013-12-11T10:08:40Z' uid='16' user='bender2' visible='true' version='2' changeset='1610'>
+    <nd ref='581369' />
+    <nd ref='581370' />
+    <nd ref='581375' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54376' timestamp='2013-12-11T10:08:40Z' uid='16' user='bender2' visible='true' version='2' changeset='1610'>
+    <nd ref='581381' />
+    <nd ref='581378' />
+    <nd ref='581376' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54377' timestamp='2013-12-11T10:08:40Z' uid='16' user='bender2' visible='true' version='2' changeset='1610'>
+    <nd ref='581369' />
+    <nd ref='581371' />
+    <nd ref='581373' />
+    <nd ref='581376' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54378' visible='true' version='1' changeset='1609'>
+    <nd ref='581391' />
+    <nd ref='581388' />
+    <nd ref='581384' />
+    <nd ref='581381' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54379' visible='true' version='1' changeset='1609'>
+    <nd ref='581393' />
+    <nd ref='581387' />
+    <nd ref='581383' />
+    <nd ref='581380' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54380' visible='true' version='1' changeset='1609'>
+    <nd ref='581406' />
+    <nd ref='581404' />
+    <nd ref='581401' />
+    <nd ref='581399' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54381' timestamp='2013-12-11T10:08:40Z' uid='16' user='bender2' visible='true' version='2' changeset='1610'>
+    <nd ref='581380' />
+    <nd ref='581377' />
+    <nd ref='581372' />
+    <nd ref='581366' />
+    <nd ref='581362' />
+    <nd ref='581360' />
+    <nd ref='581361' />
+    <nd ref='581364' />
+    <nd ref='581365' />
+    <nd ref='581367' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54382' action='delete' visible='true' version='1' changeset='1609'>
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54383' visible='true' version='1' changeset='1609'>
+    <nd ref='581408' />
+    <nd ref='581407' />
+    <nd ref='581405' />
+    <nd ref='581403' />
+    <nd ref='581402' />
+    <nd ref='581400' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54384' visible='true' version='1' changeset='1609'>
+    <nd ref='581400' />
+    <nd ref='581398' />
+    <nd ref='581396' />
+    <nd ref='581392' />
+    <nd ref='581389' />
+    <nd ref='581382' />
+    <nd ref='581375' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54385' visible='true' version='1' changeset='1609'>
+    <nd ref='581341' />
+    <nd ref='581344' />
+    <nd ref='581345' />
+    <nd ref='581349' />
+    <nd ref='581351' />
+    <nd ref='581355' />
+    <nd ref='581368' />
+    <nd ref='581381' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54386' visible='true' version='1' changeset='1609'>
+    <nd ref='581399' />
+    <nd ref='581397' />
+    <nd ref='581395' />
+    <nd ref='581394' />
+    <nd ref='581390' />
+    <nd ref='581386' />
+    <nd ref='581379' />
+    <nd ref='581367' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <way id='54387' visible='true' version='1' changeset='1609'>
+    <nd ref='581380' />
+    <nd ref='581374' />
+    <nd ref='581363' />
+    <nd ref='581353' />
+    <nd ref='581352' />
+    <nd ref='581350' />
+    <nd ref='581348' />
+    <nd ref='581347' />
+    <nd ref='581342' />
+    <tag k='layer' v='sample_map_iv2014' />
+  </way>
+  <relation id='22059' visible='true' version='1' changeset='1609'>
+    <member type='way' ref='54379' role='left' />
+    <member type='way' ref='54378' role='right' />
+    <tag k='layer' v='sample_map_iv2014' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='22060' visible='true' version='1' changeset='1609'>
+    <member type='way' ref='54387' role='left' />
+    <member type='way' ref='54385' role='right' />
+    <tag k='layer' v='sample_map_iv2014' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='22061' visible='true' version='2' changeset='1611'>
+    <member type='relation' ref='22065' role='regulatory_element' />
+    <member type='way' ref='54372' role='left' />
+    <member type='way' ref='54374' role='right' />
+    <tag k='layer' v='sample_map_iv2014' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='22062' visible='true' version='1' changeset='1609'>
+    <member type='way' ref='54386' role='left' />
+    <member type='way' ref='54384' role='right' />
+    <tag k='layer' v='sample_map_iv2014' />
+    <tag k='speedlimit' v='50' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='22063' visible='true' version='1' changeset='1609'>
+    <member type='way' ref='54380' role='left' />
+    <member type='way' ref='54383' role='right' />
+    <tag k='layer' v='sample_map_iv2014' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='22064' visible='true' version='3' changeset='1611'>
+    <member type='way' ref='54381' role='left' />
+    <member type='way' ref='54375' role='right' />
+    <member type='way' ref='54377' role='right' />
+    <member type='way' ref='54376' role='right' />
+    <tag k='layer' v='sample_map_iv2014' />
+    <tag k='speedlimit' v='40' />
+    <tag k='type' v='lanelet' />
+  </relation>
+  <relation id='22065' visible='true' version='1' changeset='1609'>
+    <member type='node' ref='581358' role='ref' />
+    <member type='node' ref='581357' role='ref' />
+    <member type='node' ref='581385' role='activate_point' />
+    <member type='way' ref='54373' role='stop_line' />
+    <member type='node' ref='581356' role='end_point' />
+    <tag k='layer' v='sample_map_iv2014' />
+    <tag k='maneuver' v='traffic_light' />
+    <tag k='type' v='regulatory_element' />
+  </relation>
+</osm>
