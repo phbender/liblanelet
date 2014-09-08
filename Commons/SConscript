@@ -1,0 +1,9 @@
+Import( "subdir_env" )
+
+public_headers = Glob("*.hpp") + Glob("*.h")
+public_exes = Glob("*.py")
+
+header_installation = subdir_env.Install( subdir_env["install_headers_dir"], [ File( h ) for h in public_headers ] )
+bin_installation = subdir_env.Install( subdir_env["install_bin_dir"], [ File( h ) for h in public_exes ] )
+
+Alias( target = "install", source = header_installation )

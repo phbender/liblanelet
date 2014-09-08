@@ -1,0 +1,46 @@
+Import( "subdir_env" )
+
+subdir_env.Append(LIBS=[])
+
+public_exes = []
+public_libs = []
+public_headers = [
+"Attribute.hpp",
+"BoundingBox.hpp",
+"CompoundLanelet.hpp",
+"LaneletBase.hpp",
+"LaneletGraph.hpp",
+"Lanelet.hpp",
+"LaneletMap.hpp",
+"lanelet_point.hpp",
+"LineStrip.hpp",
+"llet_xml.hpp",
+"LLTree.hpp",
+"RTree.h",
+"RegulatoryElement.hpp",
+"LaneletFwd.hpp",
+]
+
+liblanelet_src = [
+"CompoundLanelet.cpp",
+"LaneletBase.cpp",
+"Lanelet.cpp",
+"LaneletMap.cpp",
+"LineStrip.cpp",
+"llet_xml.cpp",
+"LLTree.cpp",
+"RegulatoryElement.cpp",
+"Attribute.cpp",
+]
+
+public_libs += subdir_env.SharedLibrary( "Lanelet", liblanelet_src, LIBS=["pugixml"] )
+public_exes += subdir_env.Program( [ "lanelet_tests.cpp" ], LIBS = subdir_env["LIBS"] + ["Lanelet", "gtest", "pthread"] )
+public_exes += subdir_env.Program( [ "demo.cpp" ], LIBS = subdir_env["LIBS"] + ["Lanelet"] )
+
+lib_installation = subdir_env.Install( subdir_env[ "install_libs_dir" ],   public_libs )
+header_installation = subdir_env.Install( subdir_env[ "install_headers_dir" ], [ File( h ) for h in public_headers ] )
+exe_installation = subdir_env.Install( subdir_env[ "install_bin_dir" ], public_exes )
+
+install_targets = lib_installation + header_installation + exe_installation
+
+Alias( target = "install", source = install_targets )
