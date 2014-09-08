@@ -1,0 +1,35 @@
+Import( "subdir_env" )
+
+conf = subdir_env.Configure()
+subdir_env = conf.Finish()
+
+
+public_headers = [ "pugixml.hpp", "pugiconfig.hpp" ]
+
+public_library = subdir_env.SharedLibrary( "pugixml", [ "pugixml.cpp" ] )
+
+lib_installation    = subdir_env.Install( subdir_env[ "install_libs_dir" ],    [ public_library ] )
+header_installation = subdir_env.Install( subdir_env[ "install_headers_dir" ], [ File( h ) for h in public_headers ] )
+
+install_targets = lib_installation + header_installation
+Alias( target = "install", source = install_targets )
+
+#-------------------------------------------------------------------------
+# create pkg-config files
+#-------------------------------------------------------------------------
+try:
+    import os,createPkgConfig
+    createPkgConfig.clear()
+    pc_prefixdir = subdir_env["PREFIX"]
+    pc_libdir =  subdir_env["install_libs_dir"]
+    libname = "pugixml"
+    
+    createPkgConfig.setMetaData(libname)
+    pc_incdir =  os.path.join(pc_prefixdir,'include')
+    createPkgConfig.setPrefix(pc_prefixdir, pc_libdir, pc_incdir)
+    createPkgConfig.addLib(libname)
+    createPkgConfig.addIncludeDir(pc_incdir)
+    createPkgConfig.save()
+
+except ImportError:
+    print """ Will not create pkg-configs"""
