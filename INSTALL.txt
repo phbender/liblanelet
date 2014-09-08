@@ -1,0 +1,51 @@
+======
+README
+======
+
+'libLanelet' is the access library that came with the 2014 IV paper by Bender,
+Ziegler, Stiller.
+
+License
+=======
+
+libLanelet is licensed under the terms of the Gnu General Public License
+Version 3. For the licenses of pugixml and googletest see the corresponding
+subdirectories and the source files.
+
+Requirements
+============
+
+* a C++ compiler with C++11-extensions
+* the Boost C++ libraries
+
+Installation
+============
+
+$ scons install 
+
+You can pass several options to scons, e.g.
+
+INSTALL_AS_SYML=(1|0)
+  installs header and library files as symbolic links (instead of copying 
+  them)
+
+OPTIMIZATION_FLAGS='<flags>'
+  Extra flags passed to the compiler, e.g. '-O3'
+
+RELEASE=(1|0)
+  Builds with or without debug code
+
+For additional flags resp. their (cached) values, type
+
+$ scons -h
+
+After successfully building the repository, you can execute the tests with
+
+$ install/bin/lanelet_tests
+
+A small demo program resides in libLanelet/demo.cpp, which is included in 
+the build as well and executable with
+
+$ install/bin/demo libLanelet/sample.osm
+
+'sample.osm' is a tiny example map snippet.
