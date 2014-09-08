@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+
+import os
+
+Import( "subdir_env" )
+
+subdir_env.Append(CPPFLAGS=Split('-I. -Iinclude -Igoogletest'))
+
+common_headers = Glob( "include/gtest/*.h" )
+internal_headers = Glob( "include/gtest/internal/*.h" )
+
+# install instructions:
+my_library = subdir_env.SharedLibrary("gtest", [
+"src/gtest.cc",
+"src/gtest-death-test.cc",
+"src/gtest-filepath.cc",
+"src/gtest-port.cc",
+"src/gtest-printers.cc", 
+"src/gtest-test-part.cc",
+"src/gtest-typed-test.cc"])
+
+                                       
+common_headers_dir = os.path.join( subdir_env[ "install_headers_prefix" ], "gtest" )
+internal_headers_dir = os.path.join( subdir_env[ "install_headers_prefix" ],
+"gtest", "internal" )
+
+lib_installation    = subdir_env.Install( subdir_env[ "install_libs_dir" ],    [ my_library ] )
+header_installation = subdir_env.Install( common_headers_dir, [ File( h ) for h in common_headers ] )
+header_installation += subdir_env.Install( internal_headers_dir, [ File( h ) for h in internal_headers ] )
+
+install_targets = header_installation
+
+Alias( target = "install", source = install_targets )
+
