@@ -1,6 +1,6 @@
 /*
  *  © 2014 by Philipp Bender <pbender@fzi.de>
- * 
+ *
  *  This file is part of libLanelet.
  *
  *  libLanelet is free software: you can redistribute it and/or modify
@@ -95,25 +95,22 @@ CompoundLineStrip::CompoundLineStrip(const std::vector<std::shared_ptr<LineStrip
 
     std::shared_ptr< LineStrip > last_nomatch;
 
-    while( open.size() )
+    while(!open.empty())
     {
-        auto strip = open.front();
+        auto const strip = open.front();
         open.pop_front();
 
-        if( strip == last_nomatch )
+        if( !insert_points(strip) )
         {
-            throw std::runtime_error("there seems so be an error in a line strip group: cannot concatenate all.");
-        }
-
-        ReversedLineStrip* rev = new ReversedLineStrip(strip);
-        std::shared_ptr< LineStrip > reversed(rev);
-
-        if( insert_points(strip) || insert_points(  reversed ) )
-            ;
-        else
-        {
-            open.push_back(strip);
-            last_nomatch = strip;
+            strip_ptr_t const reversed = strip_ptr_t(new ReversedLineStrip(strip));
+            if (!insert_points(reversed))
+            {
+                if (open.empty())
+                {
+                    throw std::runtime_error("there seems to be an error in a line strip group: cannot concatenate all.");
+                }
+                open.push_back(strip);
+            }
         }
     }
 
