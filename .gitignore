@@ -19,3 +19,25 @@
 *.exe
 *.out
 *.app
+
+# installation
+installs
+
+# build system
+.scons*
+*/build
+variables.cache
+
+# python
+*.pyc
+
+# QtCreator
+*.files
+*.project
+*.project.user
+*.creator
+*.creator.user
+*.files
+*.config
+*.includes
+
