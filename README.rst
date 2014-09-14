@@ -72,6 +72,11 @@ The thing with the node identity
   Points (or better *nodes*) are considered identical if they have the same ID. It is not sufficient to place two different points near each other. Usually
   this causes trouble with lanelet adjacency.
 
+Contributors
+============
+
+P. Bender, J. Ziegler, D. Nienhüser, E. Ward
+
 References
 ==========
 
