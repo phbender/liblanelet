@@ -89,7 +89,7 @@ double angle( const std::pair< double, double >& a, const std::pair< double, dou
     double cos_phi = sp / (abs(a) * abs(b));
 
     // sign for angle: test cross product
-    double crossp_z = get<X>(a) * get<Y>(b) - get<Y>(a) * get<Y>(b);
+    double crossp_z = get<X>(a) * get<Y>(b) - get<Y>(a) * get<X>(b);
     double signum = boost::math::sign(crossp_z);
     double phi = normalize_angle(signum * std::acos(cos_phi));
     return phi;
