@@ -66,7 +66,7 @@ Common pitfalls
 The thing with the OSM-IDs
   JOSM does not know about global IDs. So when you create new elements, they will have a negative ID which indicates that the element is not known
   to the OSM server. As soon as this element is uploaded, the server will assign a globally unique ID which is stable at least
-  during the element's life. Until then, JOSM displays 0 as ID.
+  during the element's life. Until then, JOSM displays 0 as ID unless you hange `osm-primitives.showid.new-primitives` to `true` in ``Preferences`` / ``[x] Expert mode`` / ``Advanced Preferences``.
 
 The thing with the node identity
   Points (or better *nodes*) are considered identical if they have the same ID. It is not sufficient to place two different points near each other. Usually
