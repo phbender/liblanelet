@@ -19,7 +19,9 @@ tool chain. The lanelet maps are built on top of
 * The RAILS port, which provides the OSM server [#rails]_
 * ``osmosis`` to retrieve bigger portions of the map from the database [#osmosis]_
 
-All components are open source and users profit from lanelet maps immediately.
+All components are open source so that users can profit from lanelet maps immediately.
+
+Warning: Although the infractructure of OSM plays a key role in this toolchain, lanelet maps *are not* and *will never* be part of the OSM data base. So please *do not* upload your maps to the official OSM data base - instead, use the RAILS port and set up your own server where you can host your maps.
 
 ``libLanelet``
 ==============
@@ -59,18 +61,23 @@ a JOSM style file as well as the corresponding icons. To activate the style,
 
   A screenshot of JOSM. The coloring scheme of the bounds is consistent with the paper: red for left bounds, green
   for right bounds.
+  
+Don't forget to configure JOSM to use your OSM server instead of the official one.
 
 Common pitfalls
 ===============
 
 The thing with the OSM-IDs
   JOSM does not know about global IDs. So when you create new elements, they will have a negative ID which indicates that the element is not known
-  to the OSM server. As soon as this element is uploaded, the server will assign a globally unique ID which is stable at least
+  to the OSM server (*your* server). As soon as this element is uploaded, the server will assign a globally unique ID which is stable at least
   during the element's life. Until then, JOSM displays 0 as ID unless you hange `osm-primitives.showid.new-primitives` to `true` in ``Preferences`` / ``[x] Expert mode`` / ``Advanced Preferences``.
 
 The thing with the node identity
   Points (or better *nodes*) are considered identical if they have the same ID. It is not sufficient to place two different points near each other. Usually
   this causes trouble with lanelet adjacency.
+
+Why not use the OSM server?
+  OSM refers to two things: the collected data and the agreement of the community on how to map and what to map, and the infrastructure part, which is the file format, the tile structure, editing software and the database. Lanelet maps build on top of the infrastructure part. They are meaningless to OSM mappers and uploading your maps to official OSM servers will cause trouble.
 
 Contributors
 ============
